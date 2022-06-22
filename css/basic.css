@@ -1,0 +1,28 @@
+*{margin:0; padding:0}
+ul,dl,ol,li,dt,dd{list-style:none;}
+a{color:#222; text-decoration:none;}
+a:hover{color:red;}
+
+/*common*/
+.container{width:1200px; margin: 0 auto}
+.rel{position:relative}
+.abs{position:absolute}
+.d-flex{display:flex}
+.justify-content-between{justify-content: space-between;}
+.align-items-center{align-items: center;}
+
+.h100{height:100px}
+.h200{height:200px}
+.h300{height:300px}
+
+/*header*/
+#gnb > li > a{
+    font-size:25px;
+    padding:0 20px;
+}
+#gnb .d2{
+    border:1px solid #222;
+    min-width:90px;
+    padding: 0 0 0 20px;
+    left:-20px;
+}
